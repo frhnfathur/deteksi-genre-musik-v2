@@ -1,7 +1,7 @@
 from socket import SO_LINGER
 from flask import Flask, flash, request, jsonify, redirect, url_for
 from detection import nearestClass, getNeighbors, dataset, results
-from recommender import extractfeature, Similiarity
+#from notUsed.recommender import extractfeature, Similiarity
 from python_speech_features import mfcc
 import scipy.io.wavfile as wav
 import numpy as np
