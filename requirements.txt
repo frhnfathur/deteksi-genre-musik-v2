@@ -6,4 +6,6 @@ gunicorn
 pandas
 librosa
 sklearn
-sndfile
+libsndfile1
+libsndfile-dev
+ffmpeg
