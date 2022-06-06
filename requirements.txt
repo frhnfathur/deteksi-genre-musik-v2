@@ -6,3 +6,4 @@ gunicorn
 pandas
 librosa
 sklearn
+sndfile
