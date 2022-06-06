@@ -10,7 +10,7 @@ from collections import defaultdict
 from werkzeug.utils import secure_filename
 
 path = os.path.abspath('.')
-UPLOAD_FOLDER = path + '../upload'
+UPLOAD_FOLDER = '../upload'
 ALLOWED_EXTENSIONS = {'wav'}
 
 app = Flask(__name__)
@@ -25,7 +25,7 @@ def home():
     return "bismillah protel"
 
 
-@app.route("../deteksi", methods=['GET', 'POST'])
+@app.route("/deteksi", methods=['GET', 'POST'])
 def deteksi():
     #mendapatkan audio dan menyimpannya
     if request.method == 'POST':
