@@ -6,4 +6,3 @@ gunicorn
 pandas
 librosa
 sklearn
-os
