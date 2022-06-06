@@ -4,3 +4,6 @@ scipy
 python_speech_features
 gunicorn
 pandas
+librosa
+sklearn
+os
